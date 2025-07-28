@@ -75,8 +75,8 @@ def mostrar_horario_interactivo(cursos):
                 st.info("Sin clases")
 
 # --- Cuerpo Principal de la App ---
-st.title("🗓️ Mi Horario Universitario")
-st.markdown("Consulta tu horario de forma sencilla seleccionando el período y semestre.")
+st.title("Registro de Horarios")
+st.markdown("Consulta horarios de forma sencilla seleccionando el período y semestre.")
 
 df_horarios = cargar_datos_csv()
 
