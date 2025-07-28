@@ -78,6 +78,9 @@ def mostrar_horario_interactivo(cursos):
 st.title("Registro de Horarios")
 st.markdown("Consulta horarios de forma sencilla seleccionando el período y semestre.")
 
+st.markdown("Agrega materias con el siguiente link: [Registrar](https://docs.google.com/spreadsheets/d/1vgU3AXSIdbsLtaMr13AWC4WaxDN6Hp6pZF0qY2oWARo/edit?gid=0#gid=0")
+
+
 df_horarios = cargar_datos_csv()
 
 if df_horarios is not None and not df_horarios.empty:
