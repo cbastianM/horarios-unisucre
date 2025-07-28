@@ -4,8 +4,8 @@ from collections import defaultdict
 
 # --- Configuración de la Página ---
 st.set_page_config(
-    page_title="Mi Horario Universitario",
-    page_icon="🗓️",
+    page_title="Horarios Unisucre",
+    page_icon="👩‍🎓👨‍🎓",
     layout="wide"
 )
 
